@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE76E91A1341AC5500D4C651 /* README in Resources */ = {isa = PBXBuildFile; fileRef = DE76E9191341AC5500D4C651 /* README */; };
 		DEF10E621341AACC00474D45 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEF10E611341AACC00474D45 /* UIKit.framework */; };
 		DEF10E641341AACC00474D45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEF10E631341AACC00474D45 /* Foundation.framework */; };
 		DEF10E661341AACC00474D45 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEF10E651341AACC00474D45 /* CoreGraphics.framework */; };
@@ -38,26 +39,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DE76E9191341AC5500D4C651 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		DEF10E5D1341AACC00474D45 /* BasicApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasicApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEF10E611341AACC00474D45 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DEF10E631341AACC00474D45 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DEF10E651341AACC00474D45 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		DEF10E671341AACC00474D45 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		DEF10E6B1341AACC00474D45 /* BasicApplication-Info.plist */ = {isa = PBXFileReference; path = "BasicApplication-Info.plist"; sourceTree = "<group>"; };
+		DEF10E6B1341AACC00474D45 /* BasicApplication-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BasicApplication-Info.plist"; sourceTree = "<group>"; };
 		DEF10E6D1341AACC00474D45 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		DEF10E6F1341AACC00474D45 /* BasicApplication-Prefix.pch */ = {isa = PBXFileReference; path = "BasicApplication-Prefix.pch"; sourceTree = "<group>"; };
+		DEF10E6F1341AACC00474D45 /* BasicApplication-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BasicApplication-Prefix.pch"; sourceTree = "<group>"; };
 		DEF10E701341AACC00474D45 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DEF10E721341AACC00474D45 /* BasicApplicationAppDelegate.h */ = {isa = PBXFileReference; path = BasicApplicationAppDelegate.h; sourceTree = "<group>"; };
+		DEF10E721341AACC00474D45 /* BasicApplicationAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasicApplicationAppDelegate.h; sourceTree = "<group>"; };
 		DEF10E731341AACC00474D45 /* BasicApplicationAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasicApplicationAppDelegate.m; sourceTree = "<group>"; };
 		DEF10E761341AACC00474D45 /* BasicApplication.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BasicApplication.xcdatamodel; sourceTree = "<group>"; };
 		DEF10E791341AACC00474D45 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		DEF10E7B1341AACC00474D45 /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		DEF10E7B1341AACC00474D45 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		DEF10E7C1341AACC00474D45 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		DEF10E7F1341AACC00474D45 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
 		DEF10E861341AACC00474D45 /* BasicApplicationTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BasicApplicationTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DEF10E8F1341AACC00474D45 /* BasicApplicationTests-Info.plist */ = {isa = PBXFileReference; path = "BasicApplicationTests-Info.plist"; sourceTree = "<group>"; };
+		DEF10E8F1341AACC00474D45 /* BasicApplicationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BasicApplicationTests-Info.plist"; sourceTree = "<group>"; };
 		DEF10E911341AACC00474D45 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		DEF10E931341AACC00474D45 /* BasicApplicationTests-Prefix.pch */ = {isa = PBXFileReference; path = "BasicApplicationTests-Prefix.pch"; sourceTree = "<group>"; };
+		DEF10E931341AACC00474D45 /* BasicApplicationTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BasicApplicationTests-Prefix.pch"; sourceTree = "<group>"; };
 		DEF10E941341AACD00474D45 /* BasicApplicationTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasicApplicationTests.h; sourceTree = "<group>"; };
 		DEF10E961341AACD00474D45 /* BasicApplicationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasicApplicationTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -121,6 +123,7 @@
 		DEF10E691341AACC00474D45 /* BasicApplication */ = {
 			isa = PBXGroup;
 			children = (
+				DE76E9191341AC5500D4C651 /* README */,
 				DEF10E721341AACC00474D45 /* BasicApplicationAppDelegate.h */,
 				DEF10E731341AACC00474D45 /* BasicApplicationAppDelegate.m */,
 				DEF10E781341AACC00474D45 /* MainWindow.xib */,
@@ -237,6 +240,7 @@
 				DEF10E6E1341AACC00474D45 /* InfoPlist.strings in Resources */,
 				DEF10E7A1341AACC00474D45 /* MainWindow.xib in Resources */,
 				DEF10E801341AACC00474D45 /* RootViewController.xib in Resources */,
+				DE76E91A1341AC5500D4C651 /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +460,7 @@
 				DEF10E9C1341AACD00474D45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DEF10E9D1341AACD00474D45 /* Build configuration list for PBXNativeTarget "BasicApplicationTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +469,7 @@
 				DEF10E9F1341AACD00474D45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
