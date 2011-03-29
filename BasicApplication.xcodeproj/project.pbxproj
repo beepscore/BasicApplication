@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DE76E91A1341AC5500D4C651 /* README in Resources */ = {isa = PBXBuildFile; fileRef = DE76E9191341AC5500D4C651 /* README */; };
+		DEC6DD521341AF3F007FA69C /* README in Resources */ = {isa = PBXBuildFile; fileRef = DEC6DD511341AF3F007FA69C /* README */; };
 		DEF10E621341AACC00474D45 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEF10E611341AACC00474D45 /* UIKit.framework */; };
 		DEF10E641341AACC00474D45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEF10E631341AACC00474D45 /* Foundation.framework */; };
 		DEF10E661341AACC00474D45 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEF10E651341AACC00474D45 /* CoreGraphics.framework */; };
@@ -39,7 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DE76E9191341AC5500D4C651 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		DEC6DD511341AF3F007FA69C /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		DEF10E5D1341AACC00474D45 /* BasicApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasicApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEF10E611341AACC00474D45 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DEF10E631341AACC00474D45 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -93,6 +93,7 @@
 		DEF10E521341AACC00474D45 = {
 			isa = PBXGroup;
 			children = (
+				DEC6DD511341AF3F007FA69C /* README */,
 				DEF10E691341AACC00474D45 /* BasicApplication */,
 				DEF10E8D1341AACC00474D45 /* BasicApplicationTests */,
 				DEF10E601341AACC00474D45 /* Frameworks */,
@@ -123,7 +124,6 @@
 		DEF10E691341AACC00474D45 /* BasicApplication */ = {
 			isa = PBXGroup;
 			children = (
-				DE76E9191341AC5500D4C651 /* README */,
 				DEF10E721341AACC00474D45 /* BasicApplicationAppDelegate.h */,
 				DEF10E731341AACC00474D45 /* BasicApplicationAppDelegate.m */,
 				DEF10E781341AACC00474D45 /* MainWindow.xib */,
@@ -240,7 +240,7 @@
 				DEF10E6E1341AACC00474D45 /* InfoPlist.strings in Resources */,
 				DEF10E7A1341AACC00474D45 /* MainWindow.xib in Resources */,
 				DEF10E801341AACC00474D45 /* RootViewController.xib in Resources */,
-				DE76E91A1341AC5500D4C651 /* README in Resources */,
+				DEC6DD521341AF3F007FA69C /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
