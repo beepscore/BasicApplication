@@ -27,6 +27,8 @@
 {
     // Override point for customization after application launch.
     // Add the navigation controller's view to the window and display.
+    
+    // http://stackoverflow.com/questions/5248460/self-window-rootviewcontroller-vs-window-addsubview
     self.window.rootViewController = self.navigationController;
     [self.window makeKeyAndVisible];
     return YES;
