@@ -83,6 +83,8 @@
 - (void)awakeFromNib
 {
     RootViewController *rootViewController = (RootViewController *)[self.navigationController topViewController];
+    
+    // initializes the Core Data stack- managedObjectContext, persistentStoreCoordinator, managedObjectModel
     rootViewController.managedObjectContext = self.managedObjectContext;
 }
 
