@@ -58,7 +58,7 @@
 		DEF10E7B1341AACC00474D45 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		DEF10E7C1341AACC00474D45 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		DEF10E7F1341AACC00474D45 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
-		DEF10E861341AACC00474D45 /* BasicApplicationTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BasicApplicationTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEF10E861341AACC00474D45 /* BasicApplicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BasicApplicationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEF10E8F1341AACC00474D45 /* BasicApplicationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BasicApplicationTests-Info.plist"; sourceTree = "<group>"; };
 		DEF10E911341AACC00474D45 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DEF10E931341AACC00474D45 /* BasicApplicationTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BasicApplicationTests-Prefix.pch"; sourceTree = "<group>"; };
@@ -108,7 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				DEF10E5D1341AACC00474D45 /* BasicApplication.app */,
-				DEF10E861341AACC00474D45 /* BasicApplicationTests.octest */,
+				DEF10E861341AACC00474D45 /* BasicApplicationTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -206,8 +206,8 @@
 			);
 			name = BasicApplicationTests;
 			productName = BasicApplicationTests;
-			productReference = DEF10E861341AACC00474D45 /* BasicApplicationTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productReference = DEF10E861341AACC00474D45 /* BasicApplicationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -413,18 +413,13 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BasicApplicationTests/BasicApplicationTests-Prefix.pch";
 				INFOPLIST_FILE = "BasicApplicationTests/BasicApplicationTests-Info.plist";
-				OTHER_LDFLAGS = (
-					"-framework",
-					SenTestingKit,
-				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
 		};
@@ -436,18 +431,13 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BasicApplicationTests/BasicApplicationTests-Prefix.pch";
 				INFOPLIST_FILE = "BasicApplicationTests/BasicApplicationTests-Info.plist";
-				OTHER_LDFLAGS = (
-					"-framework",
-					SenTestingKit,
-				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};

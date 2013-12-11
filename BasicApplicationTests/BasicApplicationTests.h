@@ -6,10 +6,10 @@
 //  Copyright 2011 Beepscore LLC. All rights reserved.
 //
 
-#import <SenTestingKit/SenTestingKit.h>
+#import <XCTest/XCTest.h>
 
 
-@interface BasicApplicationTests : SenTestCase {
+@interface BasicApplicationTests : XCTestCase {
 @private
     
 }
